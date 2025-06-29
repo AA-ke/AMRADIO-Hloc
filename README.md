@@ -2,7 +2,7 @@
 This project utilizes the VFM: AM-RADIO released by NVIDIA in October 2024 to address the issue of autonomous position identification and localization of drones without GNSS. This visual large model distills three mainstream SOTA models (SAM, CLIP, DINOv2) into one large model, demonstrating superior performance in tasks such as object recognition, multimodal processing, and scene segmentation. The project employs this large model with a Hierarchical Localization architecture, transforming the original CNN-based HF-Net model into one based on a hybrid Transformer architecture, and hierarchically performing global descriptor retrieval and local descriptor matching, demonstrating feasibility on internal drone top-view datasets. The project uses AM-RADIO in conjunction with local descriptor matching methods such as NNM/SuperGlue/LightGlue to achieve local alignment, tested on the HPatches dataset, showing approximately a 15% improvement (on average) over traditional SIFT in matching and retrieval effectiveness, and about 10% over SuperPoint.
 ![image](https://github.com/user-attachments/assets/7892ae21-0a56-4a84-bc2a-6fe5465fd8ac)
 the structure of RADIO
-![image](https://github.com/user-attachments/assets/ec336d66-5a53-404b-940a-f5721ddeffe8)
+![image](https://github.com/user-attachments/assets/373dab20-7c8d-4a2a-8073-212946a17116)
 the principle of Hloc
 ![image](https://github.com/user-attachments/assets/2c08b902-de19-4caf-a6dd-a31e61ddb5d9)
 Using the RADIO model for spatial feature extraction to improve local matching effects of feature points
