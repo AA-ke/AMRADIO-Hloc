@@ -9,7 +9,7 @@ Using the RADIO model for spatial feature extraction to improve local matching e
 ![image](https://github.com/user-attachments/assets/fcabc263-ead0-44e7-9383-c58948e100a8)
 Local matching alignment of drone downward view scenes
 ![image](https://github.com/user-attachments/assets/c365506e-25e1-428a-bb71-07b79837e86c)
-
+Wrapped images of drone downward view scenes
 ![image](https://github.com/user-attachments/assets/d6b1c644-7c1f-478c-be8c-f0c82c85008b)
 Use RADIO model Summary tokens for global retrieval
 ![image](https://github.com/user-attachments/assets/2a9c4b71-0def-4867-bcfd-c1b1103db226)
